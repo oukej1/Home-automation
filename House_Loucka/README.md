@@ -1,0 +1,1 @@
+Folder for preparation of arduino and RPI based home automation for house in Loučka. 

@@ -1,0 +1,1 @@
+Folder for testing of arduino and RPI based home automation in Hůrka. 
