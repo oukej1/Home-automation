@@ -10,7 +10,7 @@
             <mxPoint x="840" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1Tj3oZCWMfZi9ChmOZmP-52" value="Lights" parent="0" visible="0" />
+        <mxCell id="1Tj3oZCWMfZi9ChmOZmP-52" value="Lights" parent="0" />
         <mxCell id="1Tj3oZCWMfZi9ChmOZmP-36" value="" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1Tj3oZCWMfZi9ChmOZmP-52" vertex="1">
           <mxGeometry x="737.5" y="422.5" width="5" height="80" as="geometry" />
         </mxCell>
@@ -956,7 +956,7 @@
         <mxCell id="aN2tycirrko8mqs13eRb-4" value="H1121" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#b85450;opacity=50;" parent="1Tj3oZCWMfZi9ChmOZmP-338" vertex="1">
           <mxGeometry x="1300" y="450" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="vbgTtS5HceAR6-XNsHjG-3" value="Sockets" parent="0" />
+        <mxCell id="vbgTtS5HceAR6-XNsHjG-3" value="Sockets" parent="0" visible="0" />
         <mxCell id="vbgTtS5HceAR6-XNsHjG-8" value="&lt;font&gt;&lt;div&gt;S116-1 lednice&lt;/div&gt;&lt;/font&gt;" style="shape=stencil(tZThToQwDMefZh8xg90l+tGgvkflCizuNtLNg3t7BxsJ44ScGhNCaP/0164tMFHaFjpkBW+ZeGFFkXPu797uVzbYDisXnBcgCe8Kg2IdmQ/s5clFhtQtknSjKl4Zf/bvjJcoK6O1h0ijbaIsdA8DqX0sHwKMPxxDmmu0g9X5DGd0SImXFW/3g1PsnObv4Py/wOtW5D8Bi9J7tgYgytoQNmQ+9enbcmqpVJjzTs0djBtwI8zy2Vxw0aW0/4+7/ZgRQJV/oIg4xBi6pvaQwSBtRsbBeNSkLQqowcxzslpBk0i2R+wW7tjemOzpN/WmRz6uVu4egpJ6m3DYRUwT35iJ/+63pjmF3azD5A3/isnxBQ==);whiteSpace=wrap;html=1;fillColor=#F8CECC;strokeColor=#EA6B66;strokeWidth=2;fillStyle=solid;gradientColor=none;verticalAlign=middle;rotation=0;direction=south;fontColor=#FFAD99;fontStyle=1" parent="vbgTtS5HceAR6-XNsHjG-3" vertex="1">
           <mxGeometry x="720" y="550" width="20" height="12.5" as="geometry" />
         </mxCell>
