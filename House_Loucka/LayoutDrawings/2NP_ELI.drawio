@@ -571,29 +571,16 @@
           <mxGeometry x="1050" y="520" width="36" height="20" as="geometry" />
         </mxCell>
         <mxCell id="SELcGNgED2zLX8nn-lMN-3" value="Sound" parent="0" />
-        <mxCell id="SELcGNgED2zLX8nn-lMN-4" value="SND2021" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.note;pointerEvents=1" vertex="1" parent="SELcGNgED2zLX8nn-lMN-3">
-          <mxGeometry x="480" y="500" width="20" height="19.7" as="geometry" />
+        <mxCell id="SELcGNgED2zLX8nn-lMN-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="SELcGNgED2zLX8nn-lMN-3" source="SELcGNgED2zLX8nn-lMN-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="519.7" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="SELcGNgED2zLX8nn-lMN-5" value="SND2021" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.note;pointerEvents=1" vertex="1" parent="SELcGNgED2zLX8nn-lMN-3">
-          <mxGeometry x="480" y="630" width="20" height="19.7" as="geometry" />
+          <mxGeometry x="480" y="565" width="20" height="19.7" as="geometry" />
         </mxCell>
         <mxCell id="SELcGNgED2zLX8nn-lMN-6" value="SND2061" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.note;pointerEvents=1" vertex="1" parent="SELcGNgED2zLX8nn-lMN-3">
-          <mxGeometry x="980" y="490" width="20" height="19.7" as="geometry" />
-        </mxCell>
-        <mxCell id="SELcGNgED2zLX8nn-lMN-7" value="SND2061" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.note;pointerEvents=1" vertex="1" parent="SELcGNgED2zLX8nn-lMN-3">
-          <mxGeometry x="980" y="630" width="20" height="19.7" as="geometry" />
-        </mxCell>
-        <mxCell id="SELcGNgED2zLX8nn-lMN-9" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0.711;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.45;entryY=0.711;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="SELcGNgED2zLX8nn-lMN-3" source="SELcGNgED2zLX8nn-lMN-5" target="SELcGNgED2zLX8nn-lMN-4">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="670" y="660" as="sourcePoint" />
-            <mxPoint x="720" y="610" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="SELcGNgED2zLX8nn-lMN-10" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0.457;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.4;entryY=0.761;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="SELcGNgED2zLX8nn-lMN-3" source="SELcGNgED2zLX8nn-lMN-7" target="SELcGNgED2zLX8nn-lMN-6">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1031" y="630" as="sourcePoint" />
-            <mxPoint x="1030" y="500" as="targetPoint" />
-          </mxGeometry>
+          <mxGeometry x="980" y="540" width="20" height="19.7" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
