@@ -437,7 +437,7 @@
         <mxCell id="OwHueVmwk863M4y6-R1N-155" value="&lt;b&gt;&lt;font color=&quot;#ffad99&quot;&gt;H2042&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#ffad99&quot;&gt;500W&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="shape=mxgraph.pid.heat_exchangers.single_pass_heat_exchanger;html=1;pointerEvents=1;align=center;verticalLabelPosition=bottom;verticalAlign=middle;dashed=0;rotation=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=8;spacingTop=11;" parent="OwHueVmwk863M4y6-R1N-154" vertex="1">
           <mxGeometry x="860" y="610" width="30" height="5" as="geometry" />
         </mxCell>
-        <mxCell id="8UA04idiNt2eNoQxO-YK-1" value="Sockets" parent="0" />
+        <mxCell id="8UA04idiNt2eNoQxO-YK-1" value="Sockets" parent="0" visible="0" />
         <mxCell id="8UA04idiNt2eNoQxO-YK-2" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;color: rgb(247, 247, 247);&quot;&gt;&lt;font color=&quot;#f7f7f7&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(247, 247, 247);&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;S201-2&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=stencil(tZThToQwDMefZh8xg90l+tGgvkflCizuNtLNg3t7BxsJ44ScGhNCaP/0164tMFHaFjpkBW+ZeGFFkXPu797uVzbYDisXnBcgCe8Kg2IdmQ/s5clFhtQtknSjKl4Zf/bvjJcoK6O1h0ijbaIsdA8DqX0sHwKMPxxDmmu0g9X5DGd0SImXFW/3g1PsnObv4Py/wOtW5D8Bi9J7tgYgytoQNmQ+9enbcmqpVJjzTs0djBtwI8zy2Vxw0aW0/4+7/ZgRQJV/oIg4xBi6pvaQwSBtRsbBeNSkLQqowcxzslpBk0i2R+wW7tjemOzpN/WmRz6uVu4egpJ6m3DYRUwT35iJ/+63pjmF3azD5A3/isnxBQ==);whiteSpace=wrap;html=1;fillColor=#F8CECC;strokeColor=#EA6B66;strokeWidth=2;fillStyle=solid;gradientColor=none;verticalAlign=middle;" parent="8UA04idiNt2eNoQxO-YK-1" vertex="1">
           <mxGeometry x="578" y="440" width="20" height="25" as="geometry" />
         </mxCell>
@@ -551,7 +551,7 @@
         <mxCell id="8UA04idiNt2eNoQxO-YK-61" value="Žaluzie tlačítko" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FAFAFA;" parent="8UA04idiNt2eNoQxO-YK-34" vertex="1">
           <mxGeometry x="250" y="390" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="8UA04idiNt2eNoQxO-YK-47" value="Shutters" parent="0" />
+        <mxCell id="8UA04idiNt2eNoQxO-YK-47" value="Shutters" parent="0" visible="0" />
         <mxCell id="8UA04idiNt2eNoQxO-YK-49" value="&lt;font color=&quot;#f0f0f0&quot;&gt;SHXXXX&lt;/font&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;direction=west;fillColor=#bac8d3;strokeColor=#23445d;size=10;strokeWidth=1;spacingBottom=-34;" parent="8UA04idiNt2eNoQxO-YK-47" vertex="1">
           <mxGeometry x="200" y="350" width="36" height="20" as="geometry" />
         </mxCell>
@@ -569,6 +569,31 @@
         </mxCell>
         <mxCell id="8UA04idiNt2eNoQxO-YK-55" value="&lt;font color=&quot;#f0f0f0&quot;&gt;SH2061&lt;/font&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;direction=east;fillColor=#bac8d3;strokeColor=#23445d;size=10;strokeWidth=1;spacingBottom=-34;" parent="8UA04idiNt2eNoQxO-YK-47" vertex="1">
           <mxGeometry x="1050" y="520" width="36" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SELcGNgED2zLX8nn-lMN-3" value="Sound" parent="0" />
+        <mxCell id="SELcGNgED2zLX8nn-lMN-4" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.note;pointerEvents=1" vertex="1" parent="SELcGNgED2zLX8nn-lMN-3">
+          <mxGeometry x="480" y="500" width="20" height="19.7" as="geometry" />
+        </mxCell>
+        <mxCell id="SELcGNgED2zLX8nn-lMN-5" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.note;pointerEvents=1" vertex="1" parent="SELcGNgED2zLX8nn-lMN-3">
+          <mxGeometry x="480" y="630" width="20" height="19.7" as="geometry" />
+        </mxCell>
+        <mxCell id="SELcGNgED2zLX8nn-lMN-6" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.note;pointerEvents=1" vertex="1" parent="SELcGNgED2zLX8nn-lMN-3">
+          <mxGeometry x="980" y="490" width="20" height="19.7" as="geometry" />
+        </mxCell>
+        <mxCell id="SELcGNgED2zLX8nn-lMN-7" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.note;pointerEvents=1" vertex="1" parent="SELcGNgED2zLX8nn-lMN-3">
+          <mxGeometry x="980" y="630" width="20" height="19.7" as="geometry" />
+        </mxCell>
+        <mxCell id="SELcGNgED2zLX8nn-lMN-9" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0.711;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.45;entryY=0.711;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="SELcGNgED2zLX8nn-lMN-3" source="SELcGNgED2zLX8nn-lMN-5" target="SELcGNgED2zLX8nn-lMN-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="670" y="660" as="sourcePoint" />
+            <mxPoint x="720" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SELcGNgED2zLX8nn-lMN-10" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0.457;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.4;entryY=0.761;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="SELcGNgED2zLX8nn-lMN-3" source="SELcGNgED2zLX8nn-lMN-7" target="SELcGNgED2zLX8nn-lMN-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1031" y="630" as="sourcePoint" />
+            <mxPoint x="1030" y="500" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
