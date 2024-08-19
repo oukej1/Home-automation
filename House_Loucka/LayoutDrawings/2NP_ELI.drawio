@@ -412,12 +412,12 @@
             <mxPoint x="26.139999999999986" y="80.00999999999999" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OwHueVmwk863M4y6-R1N-154" value="Heating" parent="0" visible="0" />
+        <mxCell id="OwHueVmwk863M4y6-R1N-154" value="Heating" parent="0" />
         <mxCell id="OwHueVmwk863M4y6-R1N-150" value="H2061&lt;div&gt;1300 W&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;opacity=50;" parent="OwHueVmwk863M4y6-R1N-154" vertex="1">
           <mxGeometry x="924" y="488" width="160" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="OwHueVmwk863M4y6-R1N-151" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.signal_sources.source;aspect=fixed;points=[[0.5,0,0],[1,0.5,0],[0.5,1,0],[0,0.5,0]];elSignalType=dc1;fillColor=#fff2cc;strokeColor=#d6b656;rotation=0;direction=west;" parent="OwHueVmwk863M4y6-R1N-154" vertex="1">
-          <mxGeometry x="1070" y="490" width="20" height="20" as="geometry" />
+        <mxCell id="OwHueVmwk863M4y6-R1N-151" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.signal_sources.source;aspect=fixed;points=[[0.5,0,0],[1,0.5,0],[0.5,1,0],[0,0.5,0]];elSignalType=dc1;fillColor=#fff2cc;strokeColor=#d6b656;rotation=0;direction=east;" parent="OwHueVmwk863M4y6-R1N-154" vertex="1">
+          <mxGeometry x="910" y="490" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="OwHueVmwk863M4y6-R1N-152" value="H2041&lt;div&gt;550W&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;opacity=50;" parent="OwHueVmwk863M4y6-R1N-154" vertex="1">
           <mxGeometry x="800" y="610" width="60" height="96" as="geometry" />
@@ -428,13 +428,13 @@
         <mxCell id="OwHueVmwk863M4y6-R1N-147" value="H2021&lt;div&gt;1700 W&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;opacity=50;" parent="OwHueVmwk863M4y6-R1N-154" vertex="1">
           <mxGeometry x="400" y="480" width="200" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="OwHueVmwk863M4y6-R1N-148" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.signal_sources.source;aspect=fixed;points=[[0.5,0,0],[1,0.5,0],[0.5,1,0],[0,0.5,0]];elSignalType=dc1;fillColor=#fff2cc;strokeColor=#d6b656;rotation=-180;direction=west;" parent="OwHueVmwk863M4y6-R1N-154" vertex="1">
-          <mxGeometry x="380" y="500" width="20" height="20" as="geometry" />
+        <mxCell id="OwHueVmwk863M4y6-R1N-148" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.signal_sources.source;aspect=fixed;points=[[0.5,0,0],[1,0.5,0],[0.5,1,0],[0,0.5,0]];elSignalType=dc1;fillColor=#fff2cc;strokeColor=#d6b656;rotation=-180;direction=east;" parent="OwHueVmwk863M4y6-R1N-154" vertex="1">
+          <mxGeometry x="600" y="520" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="OwHueVmwk863M4y6-R1N-155" value="&lt;b&gt;&lt;font color=&quot;#ffad99&quot;&gt;H2042&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#ffad99&quot;&gt;500W&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="shape=mxgraph.pid.heat_exchangers.single_pass_heat_exchanger;html=1;pointerEvents=1;align=center;verticalLabelPosition=bottom;verticalAlign=middle;dashed=0;rotation=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=8;spacingTop=11;" parent="OwHueVmwk863M4y6-R1N-154" vertex="1">
           <mxGeometry x="860" y="610" width="30" height="5" as="geometry" />
         </mxCell>
-        <mxCell id="8UA04idiNt2eNoQxO-YK-1" value="Sockets" parent="0" />
+        <mxCell id="8UA04idiNt2eNoQxO-YK-1" value="Sockets" parent="0" visible="0" />
         <mxCell id="8UA04idiNt2eNoQxO-YK-2" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;color: rgb(247, 247, 247);&quot;&gt;&lt;font color=&quot;#f7f7f7&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(247, 247, 247);&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;S201-2&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=stencil(tZThToQwDMefZh8xg90l+tGgvkflCizuNtLNg3t7BxsJ44ScGhNCaP/0164tMFHaFjpkBW+ZeGFFkXPu797uVzbYDisXnBcgCe8Kg2IdmQ/s5clFhtQtknSjKl4Zf/bvjJcoK6O1h0ijbaIsdA8DqX0sHwKMPxxDmmu0g9X5DGd0SImXFW/3g1PsnObv4Py/wOtW5D8Bi9J7tgYgytoQNmQ+9enbcmqpVJjzTs0djBtwI8zy2Vxw0aW0/4+7/ZgRQJV/oIg4xBi6pvaQwSBtRsbBeNSkLQqowcxzslpBk0i2R+wW7tjemOzpN/WmRz6uVu4egpJ6m3DYRUwT35iJ/+63pjmF3azD5A3/isnxBQ==);whiteSpace=wrap;html=1;fillColor=#F8CECC;strokeColor=#EA6B66;strokeWidth=2;fillStyle=solid;gradientColor=none;verticalAlign=middle;" parent="8UA04idiNt2eNoQxO-YK-1" vertex="1">
           <mxGeometry x="578" y="440" width="20" height="25" as="geometry" />
         </mxCell>
