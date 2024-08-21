@@ -131,7 +131,7 @@
         <mxCell id="8UA04idiNt2eNoQxO-YK-49" value="&lt;font color=&quot;#f0f0f0&quot;&gt;SHXXXX&lt;/font&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;direction=west;fillColor=#bac8d3;strokeColor=#23445d;size=10;strokeWidth=1;spacingBottom=-34;" parent="OwHueVmwk863M4y6-R1N-5" vertex="1">
           <mxGeometry x="200" y="350" width="36" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="OwHueVmwk863M4y6-R1N-44" value="Lights" parent="0" visible="0" />
+        <mxCell id="OwHueVmwk863M4y6-R1N-44" value="Lights" parent="0" />
         <mxCell id="OwHueVmwk863M4y6-R1N-45" value="&lt;font color=&quot;#2eff35&quot;&gt;L2021&lt;/font&gt;" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.abstract.multiplier;fillColor=#d5e8d4;strokeColor=#82b366;labelBorderColor=none;fontSize=8;fontStyle=1" parent="OwHueVmwk863M4y6-R1N-44" vertex="1">
           <mxGeometry x="480" y="570" width="15" height="15" as="geometry" />
         </mxCell>
@@ -554,7 +554,7 @@
         <mxCell id="8UA04idiNt2eNoQxO-YK-61" value="Žaluzie tlačítko" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FAFAFA;" parent="8UA04idiNt2eNoQxO-YK-34" vertex="1">
           <mxGeometry x="250" y="390" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="8UA04idiNt2eNoQxO-YK-47" value="Shutters" parent="0" />
+        <mxCell id="8UA04idiNt2eNoQxO-YK-47" value="Shutters" parent="0" visible="0" />
         <mxCell id="8UA04idiNt2eNoQxO-YK-51" value="&lt;font color=&quot;#f0f0f0&quot;&gt;SH2021&lt;/font&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;direction=west;fillColor=#bac8d3;strokeColor=#23445d;size=10;strokeWidth=1;spacingBottom=-34;" parent="8UA04idiNt2eNoQxO-YK-47" vertex="1">
           <mxGeometry x="378" y="540" width="36" height="20" as="geometry" />
         </mxCell>
