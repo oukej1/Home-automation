@@ -156,7 +156,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="5yECqGZ0epXN8AQ9EOm3-2287" value="5x Lan zásuvka pro ostatní" style="shape=mxgraph.cisco.computers_and_peripherals.pc;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="522" y="1110" width="78" height="70" as="geometry" />
+          <mxGeometry x="430" y="1110" width="78" height="70" as="geometry" />
         </mxCell>
         <mxCell id="5yECqGZ0epXN8AQ9EOm3-2288" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;" edge="1" parent="1" source="5yECqGZ0epXN8AQ9EOm3-2287" target="5yECqGZ0epXN8AQ9EOm3-2259">
           <mxGeometry relative="1" as="geometry">
@@ -192,7 +192,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="5yECqGZ0epXN8AQ9EOm3-2296" value="1x Rekuperace Komfovent R400V - C6M" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#7AA116;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.iot_over_the_air_update;" vertex="1" parent="1">
-          <mxGeometry x="523" y="980" width="78" height="63" as="geometry" />
+          <mxGeometry x="430" y="970" width="78" height="63" as="geometry" />
         </mxCell>
         <mxCell id="5yECqGZ0epXN8AQ9EOm3-2300" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;" edge="1" parent="1" source="5yECqGZ0epXN8AQ9EOm3-2296" target="5yECqGZ0epXN8AQ9EOm3-2259">
           <mxGeometry relative="1" as="geometry">
@@ -219,7 +219,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="5yECqGZ0epXN8AQ9EOm3-2305" value="Synology NAS" style="shape=mxgraph.cisco.servers.fileserver;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="531" y="1220" width="43" height="62" as="geometry" />
+          <mxGeometry x="440" y="1220" width="43" height="62" as="geometry" />
         </mxCell>
         <mxCell id="5yECqGZ0epXN8AQ9EOm3-2306" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;" edge="1" parent="1" source="5yECqGZ0epXN8AQ9EOm3-2305" target="5yECqGZ0epXN8AQ9EOm3-2259">
           <mxGeometry relative="1" as="geometry">
@@ -231,7 +231,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="5yECqGZ0epXN8AQ9EOm3-2307" value="WD my cloud" style="shape=mxgraph.cisco.servers.fileserver;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="531" y="1330" width="43" height="62" as="geometry" />
+          <mxGeometry x="440" y="1330" width="43" height="62" as="geometry" />
         </mxCell>
         <mxCell id="5yECqGZ0epXN8AQ9EOm3-2308" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;" edge="1" parent="1" source="5yECqGZ0epXN8AQ9EOm3-2307" target="5yECqGZ0epXN8AQ9EOm3-2259">
           <mxGeometry relative="1" as="geometry">
@@ -240,6 +240,15 @@
             <Array as="points">
               <mxPoint x="390" y="1370" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5yECqGZ0epXN8AQ9EOm3-2309" value="Wifi - žárovky" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.lightbulb;" vertex="1" parent="1">
+          <mxGeometry x="757.2" y="880.3" width="22.8" height="29.7" as="geometry" />
+        </mxCell>
+        <mxCell id="5yECqGZ0epXN8AQ9EOm3-2310" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;exitX=0.443;exitY=0.859;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="5yECqGZ0epXN8AQ9EOm3-2309" target="5yECqGZ0epXN8AQ9EOm3-2302">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1046" y="1065.48" as="sourcePoint" />
+            <mxPoint x="960" y="578.48" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
