@@ -177,7 +177,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="5yECqGZ0epXN8AQ9EOm3-2291" value="" style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="350" width="101" height="50" as="geometry" />
+          <mxGeometry x="1140" y="364" width="101" height="50" as="geometry" />
         </mxCell>
         <mxCell id="5yECqGZ0epXN8AQ9EOm3-2292" value="1x FVE inverter Deye 10kW&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=mxgraph.cisco.computers_and_peripherals.pc;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="772.5" y="720" width="78" height="70" as="geometry" />
@@ -204,12 +204,42 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="5yECqGZ0epXN8AQ9EOm3-2302" value="2x AP" style="shape=mxgraph.cisco.misc.access_point;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="515" y="860" width="75" height="34" as="geometry" />
+          <mxGeometry x="515" y="890" width="75" height="34" as="geometry" />
         </mxCell>
         <mxCell id="5yECqGZ0epXN8AQ9EOm3-2303" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;" edge="1" parent="1" source="5yECqGZ0epXN8AQ9EOm3-2302" target="5yECqGZ0epXN8AQ9EOm3-2259">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="533" y="802" as="sourcePoint" />
             <mxPoint x="439" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5yECqGZ0epXN8AQ9EOm3-2304" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;" edge="1" parent="1" source="5yECqGZ0epXN8AQ9EOm3-2291" target="5yECqGZ0epXN8AQ9EOm3-2273">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1271" y="310" as="sourcePoint" />
+            <mxPoint x="870" y="314" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5yECqGZ0epXN8AQ9EOm3-2305" value="Synology NAS" style="shape=mxgraph.cisco.servers.fileserver;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="531" y="1220" width="43" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="5yECqGZ0epXN8AQ9EOm3-2306" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;" edge="1" parent="1" source="5yECqGZ0epXN8AQ9EOm3-2305" target="5yECqGZ0epXN8AQ9EOm3-2259">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="532" y="1150" as="sourcePoint" />
+            <mxPoint x="400" y="430" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="390" y="1251" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5yECqGZ0epXN8AQ9EOm3-2307" value="WD my cloud" style="shape=mxgraph.cisco.servers.fileserver;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="531" y="1330" width="43" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="5yECqGZ0epXN8AQ9EOm3-2308" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;" edge="1" parent="1" source="5yECqGZ0epXN8AQ9EOm3-2307" target="5yECqGZ0epXN8AQ9EOm3-2259">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="541" y="1261" as="sourcePoint" />
+            <mxPoint x="400" y="430" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="390" y="1370" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
