@@ -10,7 +10,7 @@
         <mxCell id="5yECqGZ0epXN8AQ9EOm3-2258" value="" style="shape=mxgraph.cisco.routers.wireless_router;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="390" y="220" width="78" height="77" as="geometry" />
         </mxCell>
-        <mxCell id="5yECqGZ0epXN8AQ9EOm3-2259" value="" style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="5yECqGZ0epXN8AQ9EOm3-2259" value="Datový rozvaděč&lt;div&gt;23 sockets&lt;/div&gt;" style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="378.5" y="370" width="101" height="50" as="geometry" />
         </mxCell>
         <mxCell id="5yECqGZ0epXN8AQ9EOm3-2262" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;" edge="1" parent="1" source="5yECqGZ0epXN8AQ9EOm3-2275" target="5yECqGZ0epXN8AQ9EOm3-2259">
@@ -41,7 +41,7 @@
           <mxGeometry x="120" y="670" width="63" height="66" as="geometry" />
         </mxCell>
         <mxCell id="5yECqGZ0epXN8AQ9EOm3-2268" value="Arduino 4" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.mqtt_protocol;fillColor=#5294CF;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="780" y="510" width="63" height="66" as="geometry" />
+          <mxGeometry x="1040" y="510" width="63" height="66" as="geometry" />
         </mxCell>
         <mxCell id="5yECqGZ0epXN8AQ9EOm3-2269" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;" edge="1" parent="1" source="5yECqGZ0epXN8AQ9EOm3-2265" target="5yECqGZ0epXN8AQ9EOm3-2259">
           <mxGeometry relative="1" as="geometry">
@@ -79,7 +79,7 @@
             <mxPoint x="416" y="430" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5yECqGZ0epXN8AQ9EOm3-2273" value="" style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="5yECqGZ0epXN8AQ9EOm3-2273" value="Pomocný rozvaděč RP1" style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="881" y="364" width="101" height="50" as="geometry" />
         </mxCell>
         <mxCell id="5yECqGZ0epXN8AQ9EOm3-2274" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;entryX=0.95;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5yECqGZ0epXN8AQ9EOm3-2273" target="5yECqGZ0epXN8AQ9EOm3-2268">
@@ -87,8 +87,7 @@
             <mxPoint x="590" y="405" as="sourcePoint" />
             <mxPoint x="490" y="405" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="932" y="543" />
-              <mxPoint x="854" y="543" />
+              <mxPoint x="930" y="543" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -105,14 +104,14 @@
           <mxGeometry x="114.5" y="1010" width="54" height="56" as="geometry" />
         </mxCell>
         <mxCell id="5yECqGZ0epXN8AQ9EOm3-2279" value="Waveshare 30Ch modbus relay - 4" style="shape=mxgraph.cisco.servers.communications_server;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="784.5" y="614" width="54" height="56" as="geometry" />
+          <mxGeometry x="1050" y="614" width="54" height="56" as="geometry" />
         </mxCell>
         <mxCell id="5yECqGZ0epXN8AQ9EOm3-2280" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;" edge="1" parent="1" source="5yECqGZ0epXN8AQ9EOm3-2279" target="5yECqGZ0epXN8AQ9EOm3-2273">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="532.5" y="798" as="sourcePoint" />
             <mxPoint x="728.5" y="490" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="932" y="640" />
+              <mxPoint x="930" y="640" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -177,10 +176,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="5yECqGZ0epXN8AQ9EOm3-2291" value="" style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="1140" y="364" width="101" height="50" as="geometry" />
+          <mxGeometry x="1200" y="364" width="101" height="50" as="geometry" />
         </mxCell>
         <mxCell id="5yECqGZ0epXN8AQ9EOm3-2292" value="1x FVE inverter Deye 10kW&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=mxgraph.cisco.computers_and_peripherals.pc;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="772.5" y="720" width="78" height="70" as="geometry" />
+          <mxGeometry x="1032.5" y="710" width="78" height="70" as="geometry" />
         </mxCell>
         <mxCell id="5yECqGZ0epXN8AQ9EOm3-2295" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;" edge="1" parent="1" source="5yECqGZ0epXN8AQ9EOm3-2292" target="5yECqGZ0epXN8AQ9EOm3-2273">
           <mxGeometry relative="1" as="geometry">
@@ -249,6 +248,18 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1046" y="1065.48" as="sourcePoint" />
             <mxPoint x="960" y="578.48" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5yECqGZ0epXN8AQ9EOm3-2311" value="2x Lan zásuvka pro ostatní" style="shape=mxgraph.cisco.computers_and_peripherals.pc;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1032.5" y="830" width="78" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="5yECqGZ0epXN8AQ9EOm3-2312" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;" edge="1" parent="1" source="5yECqGZ0epXN8AQ9EOm3-2311" target="5yECqGZ0epXN8AQ9EOm3-2273">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1043" y="760" as="sourcePoint" />
+            <mxPoint x="942" y="424" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="930" y="860" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
