@@ -5,21 +5,21 @@
 	(uuid "4b5315b1-0025-40e8-9465-38d4af9a8fe1")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:Conn_01x02_Socket"
+		(symbol "Connector:Conn_01x03_Pin"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 2.54 0)
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_01x02_Socket"
+			(property "Value" "Conn_01x03_Pin"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -45,7 +45,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x02, script generated"
+			(property "Description" "Generic connector, single row, 01x03, script generated"
 				(at 0 0 0)
 				(effects
 					(font
@@ -80,22 +80,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x02_Socket_1_1"
-				(arc
-					(start 0 -2.032)
-					(mid -0.5058 -2.54)
-					(end 0 -3.048)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			(symbol "Conn_01x03_Pin_1_1"
 				(polyline
 					(pts
-						(xy -1.27 -2.54) (xy -0.508 -2.54)
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
 					)
 					(stroke
 						(width 0.1524)
@@ -107,7 +95,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 0) (xy -0.508 0)
+						(xy 1.27 0) (xy 0.8636 0)
 					)
 					(stroke
 						(width 0.1524)
@@ -117,20 +105,53 @@
 						(type none)
 					)
 				)
-				(arc
-					(start 0 0.508)
-					(mid -0.5058 0)
-					(end 0 -0.508)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
 						(type none)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at 5.08 2.54 180)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -148,7 +169,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at 5.08 0 180)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -158,6 +179,24 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -492,433 +531,253 @@
 				)
 			)
 		)
-		(symbol "Sensor_Temperature:DS18B20"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -3.81 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "DS18B20"
-				(at 6.35 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-				(at -25.4 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"
-				(at -3.81 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Programmable Resolution 1-Wire Digital Thermometer TO-92"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "OneWire 1Wire Dallas Maxim"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO*92*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "DS18B20_0_1"
-				(rectangle
-					(start -5.08 5.08)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center -3.302 -2.54)
-					(radius 1.27)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -2.667 -1.905)
-					(end -3.937 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start -2.667 3.175)
-					(mid -3.302 3.8073)
-					(end -3.937 3.175)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.937 0.635) (xy -3.302 0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.937 1.27) (xy -3.302 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.937 1.905) (xy -3.302 1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.937 2.54) (xy -3.302 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.937 3.175) (xy -3.937 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.937 3.175) (xy -3.302 3.175)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.667 3.175) (xy -2.667 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "DS18B20_1_1"
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "DQ"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 7.62 270)
-					(length 2.54)
-					(name "V_{DD}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 	)
-	(symbol
-		(lib_id "Sensor_Temperature:DS18B20")
-		(at 101.6 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0370be30-4acd-433a-9a77-aa7d6f7f0b44")
-		(property "Reference" "U2"
-			(at 95.25 74.9299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "DS18B20"
-			(at 95.25 77.4699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 76.2 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"
-			(at 97.79 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Programmable Resolution 1-Wire Digital Thermometer TO-92"
-			(at 101.6 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "0c532e6e-94b0-409e-8c69-5939c7f17a49")
-		)
-		(pin "2"
-			(uuid "d538c373-3e9c-4cd6-86d9-1e60d125e72d")
-		)
-		(pin "1"
-			(uuid "9f60cd05-7776-4bae-ba2a-ed529fa07e94")
-		)
-		(instances
-			(project ""
-				(path "/4b5315b1-0025-40e8-9465-38d4af9a8fe1"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
+	(junction
+		(at 129.54 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1a6154ef-f209-4d1e-9030-d334ff0895f7")
 	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Socket")
-		(at 163.83 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1cfbb217-208e-4e91-a80e-4496b26da68f")
-		(property "Reference" "J3"
-			(at 165.1 66.0399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
+	(junction
+		(at 158.75 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "91a54d0b-01ad-4d03-9c46-c3e00700ed67")
+	)
+	(junction
+		(at 158.75 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f8ec70c7-4c92-4e4b-ac02-064297449bae")
+	)
+	(wire
+		(pts
+			(xy 158.75 60.96) (xy 156.21 60.96)
 		)
-		(property "Value" "Conn_01x02_Socket_GND"
-			(at 165.1 68.5799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
+		(stroke
+			(width 0)
+			(type default)
 		)
-		(property "Footprint" ""
-			(at 163.83 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(uuid "00a58eb1-93d8-41ff-94ec-af4d57cfcf2e")
+	)
+	(wire
+		(pts
+			(xy 170.18 60.96) (xy 158.75 60.96)
 		)
-		(property "Datasheet" "~"
-			(at 163.83 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(stroke
+			(width 0)
+			(type default)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 163.83 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(uuid "0f309ffa-0c3f-4739-b96e-e1256fd0b200")
+	)
+	(wire
+		(pts
+			(xy 190.5 73.66) (xy 129.54 73.66)
 		)
-		(pin "2"
-			(uuid "bf9f01ad-0984-4f98-afdf-b07196592d9a")
+		(stroke
+			(width 0)
+			(type default)
 		)
-		(pin "1"
-			(uuid "8d84b010-8fb2-4c80-8d18-dafd2a91142a")
+		(uuid "1043e2d0-e30a-4c31-a0e4-1db11590e77a")
+	)
+	(wire
+		(pts
+			(xy 156.21 60.96) (xy 156.21 57.15)
 		)
-		(instances
-			(project ""
-				(path "/4b5315b1-0025-40e8-9465-38d4af9a8fe1"
-					(reference "J3")
-					(unit 1)
-				)
-			)
+		(stroke
+			(width 0)
+			(type default)
 		)
+		(uuid "1a31e921-e76d-4a02-bcc1-614e723fa9cb")
+	)
+	(wire
+		(pts
+			(xy 129.54 53.34) (xy 129.54 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ed62205-bcfa-4a33-b22a-e4d0202900ca")
+	)
+	(wire
+		(pts
+			(xy 158.75 53.34) (xy 129.54 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27bfaeef-f2ad-4c9a-8d0b-4e78721df07b")
+	)
+	(wire
+		(pts
+			(xy 190.5 53.34) (xy 190.5 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30fde6b0-4860-40ee-8c6b-b8a06a0be8b6")
+	)
+	(wire
+		(pts
+			(xy 193.04 43.18) (xy 158.75 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42e8557d-6e41-4b76-abe6-0b288e4bb493")
+	)
+	(wire
+		(pts
+			(xy 190.5 53.34) (xy 158.75 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f29e13c-13be-40ee-9e74-e628ac72913d")
+	)
+	(wire
+		(pts
+			(xy 158.75 43.18) (xy 158.75 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f7dd3ad-1995-4947-a67e-7f61167c55df")
+	)
+	(wire
+		(pts
+			(xy 127 59.69) (xy 129.54 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fab5a0d-2c69-4d00-bcf8-411e66fd088f")
+	)
+	(wire
+		(pts
+			(xy 247.65 73.66) (xy 247.65 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8851e932-af2b-44ad-a0c1-68146b6bfdd1")
+	)
+	(wire
+		(pts
+			(xy 193.04 45.72) (xy 170.18 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95fc4913-5c50-4ecf-a352-b94d2e7be2fb")
+	)
+	(wire
+		(pts
+			(xy 193.04 48.26) (xy 127 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96648f65-1ccd-4634-bb47-08ad91260536")
+	)
+	(wire
+		(pts
+			(xy 190.5 71.12) (xy 158.75 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ea485ca-2ca1-4bb2-a6b3-30d44f4d9a3e")
+	)
+	(wire
+		(pts
+			(xy 156.21 57.15) (xy 129.54 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd46b94e-827f-42d0-9c9c-6f95147b806c")
+	)
+	(wire
+		(pts
+			(xy 170.18 45.72) (xy 170.18 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6a5824c-71e7-4370-b8fa-d52ef4ae51d8")
+	)
+	(wire
+		(pts
+			(xy 129.54 73.66) (xy 129.54 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd84ee08-59de-48a4-bf24-d5c3f6c2984d")
+	)
+	(wire
+		(pts
+			(xy 127 48.26) (xy 127 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddaae734-2800-472a-bb15-5404838ca53b")
+	)
+	(wire
+		(pts
+			(xy 158.75 71.12) (xy 158.75 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e295ff10-d714-4bab-afc1-d2d71889536e")
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Socket")
-		(at 231.14 55.88 0)
+		(at 187.96 45.72 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "39c9ff7f-09fc-445a-86ca-0619a1463868")
-		(property "Reference" "J4"
-			(at 232.41 54.6099 0)
+		(uuid "2faffb26-010a-4dfc-81ca-8b6f2e84d50b")
+		(property "Reference" "J1"
+			(at 188.595 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "Conn_01x03_Socket"
-			(at 232.41 57.1499 0)
+			(at 188.595 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 231.14 55.88 0)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
+			(at 187.96 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -927,7 +786,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 231.14 55.88 0)
+			(at 187.96 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -936,7 +795,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 231.14 55.88 0)
+			(at 187.96 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -944,92 +803,19 @@
 				(hide yes)
 			)
 		)
+		(pin "2"
+			(uuid "db31f597-a13c-46ff-92f3-4f1749446664")
+		)
 		(pin "1"
-			(uuid "d5591c23-45ef-4eeb-885c-932efc45f2c7")
+			(uuid "f9d83694-f76f-47a6-893f-38a45a278d42")
 		)
 		(pin "3"
-			(uuid "b9b891d1-0a39-49c5-9c7c-b2baaa7312c1")
-		)
-		(pin "2"
-			(uuid "4b1c003c-3bfd-4084-8381-67fe2cd6fc5a")
+			(uuid "6b5015b4-fd79-44e5-a350-4f6f5c937441")
 		)
 		(instances
 			(project ""
 				(path "/4b5315b1-0025-40e8-9465-38d4af9a8fe1"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Sensor_Temperature:DS18B20")
-		(at 101.6 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9252b268-ee06-4e63-b7cf-e679cff06110")
-		(property "Reference" "U1"
-			(at 95.25 49.5299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "DS18B20"
-			(at 95.25 52.0699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 76.2 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"
-			(at 97.79 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Programmable Resolution 1-Wire Digital Thermometer TO-92"
-			(at 101.6 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "a2a0f5ac-31dc-45a7-864c-12bcce10da1e")
-		)
-		(pin "1"
-			(uuid "6c29cbc4-d7ee-47d2-99ba-967dcd40fcf0")
-		)
-		(pin "2"
-			(uuid "c691db39-7916-4502-bace-ad949291c1fd")
-		)
-		(instances
-			(project ""
-				(path "/4b5315b1-0025-40e8-9465-38d4af9a8fe1"
-					(reference "U1")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -1037,7 +823,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 212.09 48.26 0)
+		(at 158.75 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1046,7 +832,7 @@
 		(fields_autoplaced yes)
 		(uuid "92d0c45c-8e47-46e2-a79c-4a84921e8e5b")
 		(property "Reference" "R1"
-			(at 214.63 46.9899 0)
+			(at 161.29 55.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1055,7 +841,7 @@
 			)
 		)
 		(property "Value" "4.7K"
-			(at 214.63 49.5299 0)
+			(at 161.29 58.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1064,7 +850,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 210.312 48.26 90)
+			(at 156.972 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1073,7 +859,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 212.09 48.26 0)
+			(at 158.75 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1082,7 +868,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 212.09 48.26 0)
+			(at 158.75 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1106,35 +892,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Socket")
-		(at 163.83 40.64 0)
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 134.62 57.15 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9aae7436-7813-4208-a7ee-22b3381d2065")
-		(property "Reference" "J1"
-			(at 165.1 40.6399 0)
+		(uuid "cc44b61d-17e6-4686-ab7f-cc482fb42eb1")
+		(property "Reference" "J3"
+			(at 135.89 55.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "Conn_01x02_Socket_data"
-			(at 165.1 43.1799 0)
+		(property "Value" "Conn_01x03_Pin"
+			(at 135.89 58.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 163.83 40.64 0)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
+			(at 134.62 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1143,7 +929,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 163.83 40.64 0)
+			(at 134.62 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1151,60 +937,61 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 163.83 40.64 0)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 134.62 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "3"
+			(uuid "c0115a79-5db3-4f85-98eb-bda73deebba6")
 		)
 		(pin "2"
-			(uuid "a1b28e69-b722-49f3-9f25-ec43dc7a5dd3")
+			(uuid "48126973-79d1-4877-b839-2ca0da57b63a")
 		)
 		(pin "1"
-			(uuid "6caac08b-5cac-46e3-b2b7-46db17f1fd8e")
+			(uuid "aac79956-9f7f-4e35-9346-ab4a6490af81")
 		)
 		(instances
 			(project ""
 				(path "/4b5315b1-0025-40e8-9465-38d4af9a8fe1"
-					(reference "J1")
+					(reference "J3")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Socket")
-		(at 163.83 53.34 0)
+		(lib_id "Connector:Conn_01x03_Socket")
+		(at 185.42 71.12 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a38a7241-af1c-4b99-b61f-cf7f250c4123")
+		(uuid "d7be986e-ec90-4569-a45b-8760611e6e2e")
 		(property "Reference" "J2"
-			(at 165.1 53.3399 0)
+			(at 186.055 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02_Socke_Voltage"
-			(at 165.1 55.8799 0)
+		(property "Value" "Conn_01x03_Socket"
+			(at 186.055 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 163.83 53.34 0)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
+			(at 185.42 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1213,7 +1000,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 163.83 53.34 0)
+			(at 185.42 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1221,8 +1008,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 163.83 53.34 0)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 185.42 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1231,13 +1018,16 @@
 			)
 		)
 		(pin "2"
-			(uuid "140ed98f-eae2-4511-9535-a3a5832c6372")
+			(uuid "77aab637-fe45-49be-843f-2aebec842b79")
 		)
 		(pin "1"
-			(uuid "a7a0c773-b774-4696-8a3a-7406c26ebe34")
+			(uuid "f4f01992-e21b-4fce-be9a-e927b5135334")
+		)
+		(pin "3"
+			(uuid "2ca1433f-994f-4616-84c9-03e3293c3796")
 		)
 		(instances
-			(project ""
+			(project "DS18B20_PCB"
 				(path "/4b5315b1-0025-40e8-9465-38d4af9a8fe1"
 					(reference "J2")
 					(unit 1)
